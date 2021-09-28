@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c5f8e50f67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="typing_container">
+        <div class="header">
+            <h1>שלב 1</h1>
+            <button id="restart">התחל מחדש</button> 
+        </div>
+        <h1 id="hidden_scentence">כחחחח חכחכח ככחכח חחחכ חחחח ככחח ככככחחחח חחחחכ ככ חחחככחכחכחכ חחחחחחכ ככ כחכחחככ כחכככחכ</h1>
+        <i class="far fa-pause-circle" id="pause"></i>
+        <i class="fas fa-play" id="play"></i>
+        <i class="fas fa-times" id="close"></i>
+        <i class="fas fa-check" id="check"></i>
+        <div class="words_div">
+            <h1 id="scentence">כחחחח חכחכח ככחכח חחחכ חחחח ככחכ</h1>
+            <h1 id="currentchar"></h1>
+            <h1 id="show"></h1>
+        </div>
+        <table>
+            <tr>
+                <th class="table_title">סטטיסטיקות</th>
+                <th>מספר אותיות שגויות</th>
+                <td id="error_num">0</td>
+                <th>מספר אותיות נכונות</th>
+                <td id="success_num">0</td>
+                <th>זמן שעבר</th>
+                <td id="timer">00:00</td>
+            </tr>
+        </table>
+        <img src="keyboard.png" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
